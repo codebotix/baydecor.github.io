@@ -37,8 +37,19 @@
       font-size: 18px;
       font-weight: bold;
       color: #333;
-      padding: 15px; /* Add padding to the bottom of the text */
+      padding: 10px; /* Add padding to the bottom of the text */
+      text-align: center; /* Align text to the center */
+      background: linear-gradient(to bottom, red, black); /* Use gradient for text color */
+      -webkit-background-clip: text; /* Apply gradient to text content */
+      color: transparent;
+    }
 
+    .quiz.heading{
+      font-size: 20px;
+      font-weight: bold;
+      color: #333;
+      padding: 10px; 
+       text-align: center; 
     }
 
     /* Styling for correct and incorrect answers */
@@ -54,7 +65,7 @@
 <body>
   
   <div class="quiz-card">
-      <div class="quiz-question">
+      <div class="quiz-heading">
         BLA Insights Quiz: Test Your TN Political Knowledge!
       </div>
       <div class="quiz-question">
@@ -65,7 +76,7 @@
 <div id="quiz-container">
     <div class="quiz-option-card" onclick="selectAnswer(this, 'a')">a) ஒரு தாய் பிள்ளைகளாக இணைவோம்</div>
     <div class="quiz-option-card" onclick="selectAnswer(this, 'b')">b) They use spiritual cards for political gains</div>
-    <div class="quiz-option-card" onclick="selectAnswer(this, 'c')">c) நாற்பதும் நமதே -நாடும் நமதே! களம் காண்போம்</div>
+    <div class="quiz-option-card" onclick="selectAnswer(this, 'c')">c) நாற்பதும் நமதே! நாடும் நமதே! களம் காண்போம்</div>
     <div class="quiz-option-card" onclick="selectAnswer(this, 'd')">d) ஒருவரிடம் யாராலும் திருட முடியாத செல்வம், கல்வி</div>
   </div>
 
