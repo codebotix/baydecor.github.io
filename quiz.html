@@ -9,7 +9,7 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: white;
+      background-color: #f5f5f5;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -54,16 +54,18 @@
 </head>
 <body>
 <div id="quiz-container">
-    <div class="quiz-question">
-      BLA Insights Quiz: Test Your TN Political Knowledge!
+    <div class="quiz-card">
+      <div class="quiz-question">
+        BLA Insights Quiz: Test Your TN Political Knowledge!
+      </div>
+      <div class="quiz-question">
+        Guess the relevant quote of the CM related to this surprise:
+      </div>
     </div>
-    <div class="quiz-question">
-      How many polling booth stations are there in Tamil Nadu?
-    </div>
-    <div class="quiz-option-card" onclick="selectAnswer(this, 'a')">a) 234</div>
-    <div class="quiz-option-card" onclick="selectAnswer(this, 'b')">b) 432</div>
-    <div class="quiz-option-card" onclick="selectAnswer(this, 'c')">c) 88,936</div>
-    <div class="quiz-option-card" onclick="selectAnswer(this, 'd')">d) 92,782</div>
+    <div class="quiz-option-card" onclick="selectAnswer(this, 'a')">a) ஒரு தாய் பிள்ளைகளாக இணைவோம்</div>
+    <div class="quiz-option-card" onclick="selectAnswer(this, 'b')">b) They use spiritual cards for political gains</div>
+    <div class="quiz-option-card" onclick="selectAnswer(this, 'c')">c) நாற்பதும் நமதே -நாடும் நமதே! களம் காண்போம்</div>
+    <div class="quiz-option-card" onclick="selectAnswer(this, 'd')">d) ஒருவரிடம் யாராலும் திருட முடியாத செல்வம், கல்வி</div>
   </div>
 
   <script>
